@@ -8,7 +8,7 @@ import Spinner from "./Spinner";
 import { getToken, signout } from "../auth/auth";
 
 const randomImage =
-  "https://source.unsplash.com/1600x900/?nature,photography,technology";
+  "https://res.cloudinary.com/dv1f4zvqv/image/upload/v1728930205/pexels-strotker-johannes-1913409054-28719604_rxxfa5.jpg";
 
 const activeBtnStyles =
   "bg-red-500 text-white font-bold p-2 rounded-full w-20 outline-none";

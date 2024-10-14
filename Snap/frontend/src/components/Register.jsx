@@ -6,7 +6,7 @@ import { signup } from "../auth/auth";
 import Spinner from "./Spinner";
 import { FaSpinner } from "react-icons/fa";
 
-import { facebookAuth } from "../config";
+import { facebookAuth } from "../auth/config";
 import axios from "axios";
 import { logo } from "../assets";
 

@@ -4,7 +4,7 @@ const sendMail = (mail, name) => {
   sgMail.setApiKey(process.env.Mail_Secret);
   const msg = {
     to: mail,
-    from: "vishnusatheeshdev@gmail.com",
+    from: "sangeethakamaraj@gmail.com",
     subject: "Welcome to Snap",
     html: `<!DOCTYPE html>
 <html lang="en">

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import FacebookLogin from "react-facebook-login/dist/facebook-login-render-props";
-import { facebookAuth } from "../config";
+import { facebookAuth } from "../auth/config";
 import { logo } from "../assets";
 import { signin, socialSignin } from "../auth/auth";
 import { Link, Navigate, useNavigate } from "react-router-dom";
